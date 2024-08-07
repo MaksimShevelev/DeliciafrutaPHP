@@ -1,0 +1,563 @@
+@font-face {
+    font-family: "Arial Rounded MT Std Extra Bold";
+    font-weight: bold;
+    src: url('../tipofrafias/Arial_Rounded_MT_Std_Extra_Bold.woff') format('woff'),
+        url('../tipofrafias/Arial_Rounded_MT_Std_Extra_Bold.woff2') format('woff2');
+}
+
+* {
+    color: rgb(124, 75, 151);
+    font-family: "Arial Rounded MT Std Extra Bold";
+    font-weight: bold;
+    /*overflow-x: hidden;*/
+}
+
+body {
+    background-color: rgb(241, 247, 247);
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(124, 75, 151);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h1,
+h2,
+p {
+    color: rgb(124, 75, 151);
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: rgb(124, 75, 151);
+    color: rgb(94, 176, 48);
+    border-color: rgb(94, 176, 48);
+}
+
+.card {
+    background-color: rgb(222, 244, 206);
+}
+
+.card-body p.card-text {
+    color: rgb(124, 75, 151);
+}
+
+.fs-3 {
+    color: rgb(94, 176, 48);
+}
+
+.card-body h5, .card-title,
+.card-body p{
+    color: rgb(94, 176, 48);
+}
+
+.card li {
+    color: rgb(124, 75, 151);
+}
+
+.row {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(94, 176, 48);
+    color: rgb(124, 75, 151);
+    border-color: rgb(124, 75, 151);
+}
+
+.btn-primary1 svg path {
+    color: rgb(124, 75, 151);
+}
+
+.btn-primary1 {
+    border-color: rgb(124, 75, 151);
+    color: rgb(124, 75, 151);
+}
+
+.btn-primary1:hover {
+    background-color: rgb(94, 176, 48);
+    border-color: rgb(124, 75, 151);
+}
+
+.footer p a {
+    background: url(../img/logo2.png) center center no-repeat;
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.autor {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 80vh; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nav-link {
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.respuesta h4,
+.respuesta li{
+    color: rgb(94, 176, 48);
+}
+
+.respuesta img{
+    max-width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.respuesta ul{
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.respuesta {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.autor-content {
+    text-align: center; 
+}
+
+.autor-content h2 {
+    margin-bottom: 10px;
+    color: rgb(94, 176, 48);
+}
+
+.btn-primary1 {
+    border-color: rgb(124, 75, 151);
+    color: rgb(94, 176, 48);;
+}
+
+.btn-primary1:hover {
+    background-color: rgb(94, 176, 48);
+    border-color: rgb(124, 75, 151);
+}
+
+.carousel {
+    padding: 0;
+}
+
+#carouselExampleIndicators {
+    max-width: 99%;
+    margin: 0 auto;
+}
+
+#quienes-somos {
+    background-color: rgb(241, 247, 247);
+}
+
+#quienes-somos figure {
+    display: flex;
+    justify-content: center; 
+}
+
+#quienes-somos figure img {
+    max-width: 70%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+#quienes-somos h2 {
+    color: rgb(94, 176, 48);
+}
+
+#quienes-somos h1,
+#quienes-somos h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+footer p {
+    color: rgb(94, 176, 48);
+}
+
+.accordion-button,
+.accordion-item {
+    color: rgb(94, 176, 48);
+    background-color: rgb(241, 247, 247);
+}
+
+.accordion-body {
+    background-color: rgb(222, 244, 206);
+}
+
+.contactos h3 {
+    color: rgb(94, 176, 48);
+}
+
+#form ::placeholder,
+#form1 ::placeholder,
+#form2 ::placeholder,
+#form3 ::placeholder,
+select ::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contactos {
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+input {
+    color: rgb(94, 176, 48);
+}
+
+#form button,
+.btn-primary {
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 10px; 
+}
+
+@media (min-width: 992px) {
+
+    .empresa img {
+        width: 20%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .formula {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .formula figure {
+        margin-bottom: 10%;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .formula img {
+        width: 80%;
+        height: auto;
+    }
+
+    .footer ul {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer ul li {
+        width: calc(100% / 3);
+        text-align: center;
+    }
+
+
+    .navbar p a {
+        background: url(../img/logo2.png) center center no-repeat;
+        background-size: cover;
+        width: 80px;
+        height: 80px;
+        display: inline-block;
+        font-size: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .navbar-nav li a:hover {
+        transform: scale(0.9);
+        transition: transform 0.9s ease;
+        color: rgb(94, 176, 48);
+    }
+    
+    .nav-link:hover svg {
+        fill:  rgb(94, 176, 48);
+    }
+
+    .footer li a:hover
+     {
+        transform: scale(0.8);
+        transition: transform 0.9s ease;
+    }
+
+    .redes-autor a:hover
+     {
+        transform: scale(0.8);
+        transition: transform 0.9s ease;
+    }
+
+    #principal_producto {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        margin: 5px;
+        padding: 5px;
+        padding: 0;
+    }
+
+    #contacto {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contacto #form,
+    #contacto #mapa {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5%;
+    }
+
+    #mapa {
+        width: 100%;
+        height: 100%;
+    }
+
+    #mapa iframe {
+        width: 100%;
+        height: 95%;
+    }
+
+    .btn-primary:hover {
+        transform: scale(0.95);
+        transition: transform 0.9s ease;
+    }
+
+    .btn-primary1:hover {
+        background-color: white;
+        transform: scale(0.95);
+        transition: transform 0.9s ease;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .empresa img {
+        width: 30%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .footer ul {
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        padding: 0;
+    }
+
+    .footer ul li {
+        width: calc(100% / 3);
+        text-align: center;
+    }
+
+    .formula {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    .formula figure {    
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        width: 100%; 
+        height: 300px; 
+        margin: 0; 
+        padding: 0; 
+    }
+
+    .formula img {
+        max-width: 100%; 
+        max-height: 100%;
+    }
+
+    .navbar p a {
+        background: url(../img/logo2.png) center center no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 0;
+        font-size: 0;
+    }
+
+    .navbar-nav li a:hover {
+        transform: scale(0.9);
+        transition: transform 0.9s ease;
+        color: rgb(94, 176, 48);
+    }
+
+    .footer li a:hover {
+        transform: scale(1.2);
+        transition: transform 0.9s ease;
+    }
+
+    #principal_producto {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        margin: 5px;
+        padding: 5px;
+        padding: 0;
+    }
+
+    #contacto {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contacto #form,
+    #contacto #mapa {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10%;
+    }
+
+    #mapa {
+        width: 100%;
+        height: 100%;
+    }
+
+    #mapa iframe {
+        width: 100%;
+        height: 95%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .empresa img {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .formula {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center; 
+    }
+    
+    .formula figure {    
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        width: 100%; 
+        height: 300px; 
+        margin: 0; 
+        padding: 0; 
+    }
+
+    .formula img {
+        max-width: 100%; 
+        max-height: 100%; 
+    }
+
+    .footer ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer li {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .navbar p a {
+        background: url(../img/logo2.png) center center no-repeat;
+        background-size: cover;
+        width: 60px;
+        height: 60px;
+        display: inline-block;
+        font-size: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #principal_producto {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #mapa {
+        width: 100%;
+        height: 100%;
+    }
+
+    #mapa iframe {
+        width: 100%;
+        height: 95%;
+    }
+
+    #contacto {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 5px;
+    }
+
+    #contacto #form,
+    #contacto #mapa {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 2%;
+    }
+
+    #contacto #form {
+        border: 1px solid rgb(94, 176, 48);
+        ;
+    }
+
+    #mapa {
+        width: 100%;
+        height: 100%;
+    }
+
+    #mapa iframe {
+        width: 100%;
+        height: 95%;
+    }
+}
+
+
